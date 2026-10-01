@@ -16,8 +16,7 @@ body {
   color: #1e293b;
 }
 
-button,
-input {
+button, input {
   font: inherit;
 }
 
@@ -36,8 +35,11 @@ a {
   overflow: hidden;
   text-align: center;
   padding: 20px;
-  background:
-    radial-gradient(circle at 50% 45%, #fff7ed, #ffffff 65%);
+  background: radial-gradient(
+    circle at 50% 45%,
+    #fff7ed,
+    #ffffff 65%
+  );
   transition: opacity 0.9s ease, visibility 0.9s ease;
 }
 
@@ -110,17 +112,14 @@ a {
     transform: translateY(-110vh) rotate(-18deg);
     filter: blur(8px);
   }
-
   65% {
     opacity: 1;
     transform: translateY(10px) rotate(7deg);
     filter: blur(0);
   }
-
   82% {
     transform: translateY(-5px) rotate(-3deg);
   }
-
   100% {
     opacity: 1;
     transform: translateY(0) rotate(0);
@@ -133,7 +132,9 @@ a {
   height: 4px;
   margin: 22px auto;
   border-radius: 10px;
-  background: linear-gradient(90deg, #f97316, #ef4444, #facc15);
+  background: linear-gradient(
+    90deg, #f97316, #ef4444, #facc15
+  );
 }
 
 .welcome-tagline {
@@ -277,7 +278,9 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  background: linear-gradient(115deg, #eff6ff 0%, #ffffff 68%);
+  background: linear-gradient(
+    115deg, #eff6ff 0%, #ffffff 68%
+  );
 }
 
 .hero-content {
@@ -521,7 +524,10 @@ a {
   border: 1px solid #e2e8f0;
   border-radius: 17px;
   box-shadow: 0 8px 25px #0f172a08;
-  transition: transform .25s, box-shadow .25s, border-color .25s;
+  transition:
+    transform .25s,
+    box-shadow .25s,
+    border-color .25s;
 }
 
 .card:hover {
